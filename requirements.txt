@@ -1,0 +1,4 @@
+eel
+beautifulsoup4
+requests
+pyperclip

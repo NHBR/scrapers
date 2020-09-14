@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yiff</title>
+    <link rel='stylesheet' href="yiff.css">
+    <script src="eel.js"></script>
+    <link rel="icon" type ="image/png" href="favicon.ico">
+</head>
+<body>
+<div id="cont">
+    <input id='inp' type="text"><br>
+    <button class="btn" onclick="paste()">Вставить</button>
+    <button class="btn" onclick="yiff()">Извлечь</button>
+</div>
+<script type="text/javascript">
+    async function yiff(){
+        let link = document.getElementById('inp').value;
+        document.getElementById('inp').value = 'Ожидайте';
+        let k = await eel.scrapyiff(link)();
+        if (k === 404){
+          document.getElementById('inp').value = 'Ошибка 404 нет доступа';
+          }else{
+        document.getElementById('inp').value = 'Готово';
+        }
+        }
+
+    async function paste(){
+        let link2ch = await eel.paste()();
+        document.getElementById('inp').value = link2ch;
+        }
+
+</script>
+</body>
+</html>

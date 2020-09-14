@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Извлекатель изображений с треда</title>
+    <link rel='stylesheet' href="main.css">
+    <script src="eel.js"></script>
+    <link rel="icon" type ="image/png" href="favicon.ico">
+</head>
+<body>
+<div id="cont">
+    <input id='inp' type="text"><br>
+    <button class="btn" onclick="paste()">Вставить</button>
+    <button class="btn" onclick="ch2()">Извлечь</button>
+</div>
+<script type="text/javascript">
+    async function ch2(){
+        let l2ch = document.getElementById('inp').value;
+        let k = await eel.main(l2ch)();
+        if (k === 404){
+          document.getElementById('inp').value = 'Ошибка 404 нет доступа';
+          }
+        }
+
+    async function paste(){
+        let link2ch = await eel.paste()();
+        document.getElementById('inp').value = link2ch;
+        }
+
+</script>
+</body>
+</html>
