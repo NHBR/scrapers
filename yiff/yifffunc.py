@@ -37,7 +37,7 @@ def scrapyiff(link):
     for n, i in enumerate(alllinks):
         download1(i, n)
     os.chdir('..')
-    return 'Готово'
+    return 'Done'
 
 
 @eel.expose
