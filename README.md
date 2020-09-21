@@ -7,7 +7,7 @@ This scrapers looks and works the same, only different its color-scheme
 
 <h3>How it's used</h3>
 
-0.set requirements
+0.Install requirements
 
 1.Copy url from desired site.
 
