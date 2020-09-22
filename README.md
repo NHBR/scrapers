@@ -1,6 +1,6 @@
 <h1>Media scrapers with gui on ell</h1>
 Scrapers from different sites with 
-GUI based on <a href="https://github.com/samuelhwilliams/Eel)***"><b>eel</b></a>
+GUI based on <a href="https://github.com/samuelhwilliams/Eel"><b>eel</b></a>
 module for python.
 
 This scrapers looks and works the same, only different its color-scheme

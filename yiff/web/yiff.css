@@ -16,7 +16,6 @@
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
-    margin-right: 40px;
     position: relative;
     height: 60px;
     width: 120px;
@@ -36,9 +35,20 @@
     transform: translateY(-10px);
     }
 #cont{
-    text-align: -webkit-center
+    width: 800px;
     }
 
 body{
 background-color: #08d8de;
+text-align: -webkit-center;
+}
+#htmlchek{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    }
+label{
+font-size: 20px;
+        font-weight: bolder;
 }
