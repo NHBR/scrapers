@@ -1,5 +1,5 @@
-<h1>Media scrapers with gui on ell</h1>
-Scrapers from different sites with 
+<h1>Scrapers with web  gui on ell</h1>
+Scrapers from different sites with web
 GUI based on <a href="https://github.com/samuelhwilliams/Eel"><b>eel</b></a>
 module for python.
 
