@@ -22,9 +22,9 @@ def download_all(link, checkbox_value):
     else:
         os.mkdir(dirname)
         os.chdir(dirname)
-    pages = int(soup.find('p', {'class': 'paginate-count'}).get_text().split('/')[-1].lstrip())
+    count_of_pages = int(soup.find('p', {'class': 'paginate-count'}).get_text().split('/')[-1].lstrip())
     all_links = []
-    for page in range(1, pages + 1):
+    for page in range(1, count_of_pages + 1):
         r = requests.get(link + '?p=' + str(page))
         soup = BeautifulSoup(r.text)
         post_files = [i.get('href') for i in soup.find_all('a', text='Post file')]

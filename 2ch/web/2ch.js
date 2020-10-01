@@ -1,6 +1,7 @@
 async function download(){
     let link_2ch = document.getElementById('inp').value;
     let checkbox_value = document.getElementById('htmlcheck').checked
+    alert('Wait...')
     let res = await eel.download_all(link_2ch,checkbox_value)();
     if (res === 404){
         alert('Status code 404');
