@@ -13,9 +13,9 @@ This scrapers looks and works the same, only different its color-scheme
 
 2.Run main.py from folder you need
 
-2.In new window click **"paste"** button or paste by yourself in entry field.
+3.In new window click **"paste"** button or paste by yourself in entry field.
 
-3.Click on checkbox **"Create html file"** if you want to create html file with media links.
+4.Click on checkbox **"Create html file"** if you want to create html file with media links.
 
-4.Click **"Extract"** to download media content
+5.Click **"Extract"** to download media content
  from site in to new created folder in your current dir.
