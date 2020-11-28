@@ -20,7 +20,4 @@ This scrapers looks and works the same, only different its color-scheme
 4.Click **"Extract"** to download media content
  from site in to new created folder in your current dir.
  
-<h2>yiff</h2>
-
-
 <h2>2ch</h2>
